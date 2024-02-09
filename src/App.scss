@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+$myColor: rgb(255, 123, 0);
+$firstWidth: 100%;
+$firstHeight: 100vh;
+$secondColor: #fff;
+$firstRadius: 20px;
+#light {
+  .nav-link:hover {
+    border-bottom: 1px solid $myColor;
+  }
+  .home {
+    .home-page {
+      position: relative;
+      width: $firstWidth;
+      background-image: url(./images/image-1.jpg);
+      height: $firstHeight;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      .home-text {
+        position: relative;
+        top: 100px;
+        width: 24rem;
+        height: 28rem;
+        left: 54rem;
+        background-color: $secondColor;
+        h1 {
+          padding-top: 20px;
+          color: $myColor;
+          font-family: "Dancing Script", cursive;
+        }
+        p {
+          font-size: 20px;
+          padding: 15px;
+        }
+        button {
+          border-radius: $firstRadius;
+          padding: 8px;
+          border: 1px solid $myColor;
+          background-color: $myColor;
+          color: $secondColor;
+        }
+        button:hover {
+          background-color: black;
+        }
+      }
+    }
+    .orange {
+      width: $firstWidth;
+      height: 70vh;
+      background-color: $myColor;
+      color: $secondColor;
+      h1 {
+        padding-top: 20px;
+        font-family: "Dancing Script", cursive;
+        font-size: 50px;
+      }
+      p {
+        padding: 20px;
+      }
+    }
+    .product-image {
+      margin-top: -260px;
+      top: -15rem;
+      width: $firstWidth;
+      height: 130vh;
+      img {
+        padding: 30px;
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+
+  .footer-page {
+    width: $firstWidth;
+    height: 70vh;
+    background-color: $myColor;
+    color: $secondColor;
+    .contacts {
+      display: flex;
+      padding-top: 50px;
+    }
+    input,
+    button {
+      padding: 8px;
+      border-radius: 20px;
+    }
+  }
+  .about {
+    width: $firstWidth;
+    height: 130vh;
+    .designs {
+      .design {
+        display: flex;
+        margin-left: 80px;
+        h5 {
+          color: rgb(158, 156, 156);
+        }
+        img {
+          width: 300px;
+          height: 250px;
+          padding: 30px;
+        }
+      }
+    }
+  }
+  .blogs {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    img {
+      width: 80%;
+      height: 80vh;
+      text-align: center;
+      background-position: center;
+      background-size: cover;
+    }
+    .carousel-control-next {
+      span {
+        color: black !important;
+      }
+    }
+    .carousel-caption {
+      color: rgb(99, 12, 12) !important;
+      font-size: 20px;
+    }
+  }
+  .blog-image {
+    width: 600px;
+    height: 400px;
+  }
+  .register-box {
+    width: $firstWidth;
+    height: $firstHeight;
+    display: flex !important;
+    .register {
+      margin-top: 100px;
+      width: 50%;
+      height: $firstHeight;
+      input {
+        border-bottom: 1px solid black !important;
+        margin: auto !important;
+        width: 50% !important;
+      }
+
+      .log-link,
+      .reg-link {
+        border: none;
+        background-color: #fff;
+        color: black !important;
+      }
+    }
+    .register-image {
+      width: 50%;
+
+      img {
+        margin-top: 100px;
+        height: 25rem;
+        width: 25rem;
+      }
+    }
+  }
+  .profile-page {
+    width: $firstWidth;
+    height: $firstHeight;
+    .profile-image {
+      width: 20rem;
+      height: 20rem;
+    }
+    button {
+      border-radius: 20px;
+      background-color: $myColor;
+      border: 1px solid $myColor;
+      color: $secondColor;
+      padding: 8px;
+    }
+  }
+  .theme-btn {
+    display: flex !important;
+    border: 1px solid $myColor;
+    border-radius: 20px;
+  }
+}
+
+#dark {
+  .home {
+    .container {
+      background-color: black !important;
+      color: white !important;
+    }
+    .product-image {
+      background-color: black !important;
+    }
+    .home-text{
+      background-color: black !important;
+    }
+  }
+}

@@ -12,7 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +35,181 @@
     transform: rotate(360deg);
   }
 }
+#light .nav-link:hover {
+  border-bottom: 1px solid rgb(255, 123, 0);
+}
+#light .home .home-page {
+  position: relative;
+  width: 100%;
+  background-image: url(./images/image-1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#light .home .home-page .home-text {
+  position: relative;
+  top: 100px;
+  width: 24rem;
+  height: 28rem;
+  left: 54rem;
+  background-color: #fff;
+}
+#light .home .home-page .home-text h1 {
+  padding-top: 20px;
+  color: rgb(255, 123, 0);
+  font-family: "Dancing Script", cursive;
+}
+#light .home .home-page .home-text p {
+  font-size: 20px;
+  padding: 15px;
+}
+#light .home .home-page .home-text button {
+  border-radius: 20px;
+  padding: 8px;
+  border: 1px solid rgb(255, 123, 0);
+  background-color: rgb(255, 123, 0);
+  color: #fff;
+}
+#light .home .home-page .home-text button:hover {
+  background-color: black;
+}
+#light .home .orange {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(255, 123, 0);
+  color: #fff;
+}
+#light .home .orange h1 {
+  padding-top: 20px;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+#light .home .orange p {
+  padding: 20px;
+}
+#light .home .product-image {
+  margin-top: -260px;
+  top: -15rem;
+  width: 100%;
+  height: 130vh;
+}
+#light .home .product-image img {
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+}
+#light .footer-page {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(255, 123, 0);
+  color: #fff;
+}
+#light .footer-page .contacts {
+  display: flex;
+  padding-top: 50px;
+}
+#light .footer-page input,
+#light .footer-page button {
+  padding: 8px;
+  border-radius: 20px;
+}
+#light .about {
+  width: 100%;
+  height: 130vh;
+}
+#light .about .designs .design {
+  display: flex;
+  margin-left: 80px;
+}
+#light .about .designs .design h5 {
+  color: rgb(158, 156, 156);
+}
+#light .about .designs .design img {
+  width: 300px;
+  height: 250px;
+  padding: 30px;
+}
+#light .blogs {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+}
+#light .blogs img {
+  width: 80%;
+  height: 80vh;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+#light .blogs .carousel-control-next span {
+  color: black !important;
+}
+#light .blogs .carousel-caption {
+  color: rgb(99, 12, 12) !important;
+  font-size: 20px;
+}
+#light .blog-image {
+  width: 600px;
+  height: 400px;
+}
+#light .register-box {
+  width: 100%;
+  height: 100vh;
+  display: flex !important;
+}
+#light .register-box .register {
+  margin-top: 100px;
+  width: 50%;
+  height: 100vh;
+}
+#light .register-box .register input {
+  border-bottom: 1px solid black !important;
+  margin: auto !important;
+  width: 50% !important;
+}
+#light .register-box .register .log-link,
+#light .register-box .register .reg-link {
+  border: none;
+  background-color: #fff;
+  color: black !important;
+}
+#light .register-box .register-image {
+  width: 50%;
+}
+#light .register-box .register-image img {
+  margin-top: 100px;
+  height: 25rem;
+  width: 25rem;
+}
+#light .profile-page {
+  width: 100%;
+  height: 100vh;
+}
+#light .profile-page .profile-image {
+  width: 20rem;
+  height: 20rem;
+}
+#light .profile-page button {
+  border-radius: 20px;
+  background-color: rgb(255, 123, 0);
+  border: 1px solid rgb(255, 123, 0);
+  color: #fff;
+  padding: 8px;
+}
+#light .theme-btn {
+  display: flex !important;
+  border: 1px solid rgb(255, 123, 0);
+  border-radius: 20px;
+}
+
+#dark .home .container {
+  background-color: black !important;
+  color: white !important;
+}
+#dark .home .product-image {
+  background-color: black !important;
+}
+#dark .home .home-text {
+  background-color: black !important;
+}/*# sourceMappingURL=App.css.map */
